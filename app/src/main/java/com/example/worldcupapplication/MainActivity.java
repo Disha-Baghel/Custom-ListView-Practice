@@ -22,17 +22,17 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.listview);
         //2. Data source
         dataModels = new ArrayList<>();
-        dataModels.add(new CountryModelClass("Germany", 4, R.drawable.germany));
-        dataModels.add(new CountryModelClass("France", 2, R.drawable.img));
-        dataModels.add(new CountryModelClass("Germany", 4, R.drawable.germany));
-        dataModels.add(new CountryModelClass("Germany", 4, R.drawable.germany));
-        dataModels.add(new CountryModelClass("Germany", 4, R.drawable.germany));
-        dataModels.add(new CountryModelClass("Germany", 4, R.drawable.germany));
-        dataModels.add(new CountryModelClass("Germany", 4, R.drawable.germany));
-        dataModels.add(new CountryModelClass("Germany", 4, R.drawable.germany));
-        dataModels.add(new CountryModelClass("Germany", 4, R.drawable.germany));
-        dataModels.add(new CountryModelClass("Germany", 4, R.drawable.germany));
-        dataModels.add(new CountryModelClass("Germany", 4, R.drawable.germany));
+        dataModels.add(new CountryModelClass("Germany", "4", R.drawable.germany));
+        dataModels.add(new CountryModelClass("France", "2", R.drawable.img));
+        dataModels.add(new CountryModelClass("Germany", "5", R.drawable.germany));
+        dataModels.add(new CountryModelClass("Germany", "3", R.drawable.germany));
+        dataModels.add(new CountryModelClass("Germany", "4", R.drawable.germany));
+        dataModels.add(new CountryModelClass("Germany", "4", R.drawable.germany));
+        dataModels.add(new CountryModelClass("Germany", "4", R.drawable.germany));
+        dataModels.add(new CountryModelClass("Germany", "4", R.drawable.germany));
+        dataModels.add(new CountryModelClass("Germany", "4", R.drawable.germany));
+        dataModels.add(new CountryModelClass("Germany", "4", R.drawable.germany));
+        dataModels.add(new CountryModelClass("Germany", "4", R.drawable.germany));
 
         //3. Adapter
         adapter = new CustomAdapter(dataModels, getApplicationContext());
